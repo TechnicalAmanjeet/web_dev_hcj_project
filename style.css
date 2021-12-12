@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: whitesmoke;
+}
+
+main h1{
+    width: 50vw;
+    /* background-color: red; */
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 4px solid rgb(105, 92, 92);
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+main h3{
+    /* color: whitesmoke; */
+    width: 70vw;
+    border-radius: 4px;
+    background-color: rgba(130, 93, 168,0.4);
+    margin: 0 auto;
+    padding: 4px 40px;
+    margin-top: 10px;
+}
