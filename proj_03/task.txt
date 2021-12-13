@@ -1,9 +1,10 @@
      ***** what needs to do more *****
 
+1.) needs to add javascript code which send data from form to gmail account.
 
 
 
     ***** what has been completed *****
-
+1.) done with html and css part.
 
 

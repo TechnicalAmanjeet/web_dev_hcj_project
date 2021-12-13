@@ -18,14 +18,19 @@ body{
 
 h1{
    text-align: center;
-   padding: 20px;
+   width: 55%;
+   /* padding: 20px; */
+   margin: 0 auto 20px auto;
    font-size: 4vw;
-   text-decoration: underline;
+   /* text-decoration: underline; */
+   border-bottom: 4px solid black;
    font-weight: bolder;
+   color: whitesmoke;
 }
 
 form{
-    width: 450px;
+    max-width: 450px;
+    width: 96%;
     height: 450px;
     margin: 0 auto;
     background-color: rgb(228, 216, 216);
