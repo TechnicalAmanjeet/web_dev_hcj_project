@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: blue;
+    font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background: linear-gradient(rgba(255,0,0,0.6),whitesmoke,rgba(0,255,0,0.6));
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    /* margin-top: 10px; */
+    background-color: orangered;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    padding: 0 0 0 2vw;
+    font-size: 3vw;
+    font-weight: bolder;
+}
+
+nav .logo a{
+    color: whitesmoke;
+}
+
+nav .link {
+    margin-right: 1vw;
+    display: flex;
+    /* max-width: 1600px; */
+    width: 50%;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+nav .link a{
+    color: whitesmoke;
+    background-color: transparent;
+    padding: 7px 15px;
+    font-size: 1.4vw;
+    font-weight: bolder;
+}
+
+nav .link a.active,nav .link a:hover{
+    background-color: orange;
+    color: green;
+    transition: all 1s ease;
+}
+
+
+/* done with navigation bar  */
+
+/* started working on main part  */
+
+main{
+    height: 90vh;
+    color: black;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h3{
+    font-size: 2vw;
+    word-spacing: 2vw;
+    
+}
+
+main h1{
+    word-spacing: 1.5vw;
+    font-size: 5vw;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+main h1 span{
+    color: orangered;
+}
+
+main p{
+    font-size: 2vw;
+    font-weight: bold;
+    color: rgb(34, 219, 34);
+    margin-bottom: 20px;
+}
+
+main .link a{
+    padding: 10px 20px;
+    background-color: rgb(4, 56, 4);
+    text-transform: uppercase;
+    color: orange;
+}
+
+
+/* ******** custom coding of css starts from here ********  */
